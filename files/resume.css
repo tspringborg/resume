@@ -107,6 +107,7 @@ h5 {
     padding: 3px 10px;
     color: white;
     background-color: #4f4f4f;
+    white-space: nowrap;
 }
 
 @page { size: auto;  margin: 0mm; }
