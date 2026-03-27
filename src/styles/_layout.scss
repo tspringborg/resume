@@ -1,0 +1,32 @@
+@use 'variables' as *;
+
+#inner {
+  padding: $content-padding;
+  margin: 0 auto;
+  background: $color-bg;
+  border: solid $color-footer-border;
+  border-width: $border-top-width 0 $border-bottom-width 0;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 0 2em;
+  margin-bottom: $section-gap;
+  padding-bottom: $section-gap;
+  border-bottom: 1px solid $color-border;
+
+  &.last {
+    border-bottom: none;
+  }
+}
+
+.section__label {
+  h2 {
+    font-style: italic;
+  }
+}
+
+.section__content {
+  min-width: 0;
+}

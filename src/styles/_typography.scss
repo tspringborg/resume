@@ -1,0 +1,46 @@
+@use 'variables' as *;
+
+body {
+  font-family: $font-body;
+  color: $color-text;
+}
+
+h1, h2, h3, h4 {
+  color: $color-heading;
+}
+
+h2 {
+  font-size: $font-size-h2;
+}
+
+h3, h4 {
+  font-size: $font-size-h3;
+}
+
+p {
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  padding-right: 3em;
+}
+
+a {
+  color: $color-primary;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+.enlarge {
+  font-size: $font-size-enlarge;
+  padding-right: 6.5em;
+  line-height: $line-height-enlarge;
+
+  span {
+    color: #000;
+  }
+}

@@ -1,0 +1,134 @@
+@use 'variables' as *;
+
+// Header
+.header {
+  margin: $header-margin-top 0 $header-margin-bottom 0;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid $color-border;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+
+  h1 {
+    font-size: $font-size-h1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+.contact-info {
+  margin-top: 7px;
+  text-align: right;
+
+  h3 {
+    font-size: $font-size-h3;
+  }
+}
+
+// Job entries
+.job {
+  position: relative;
+  margin-bottom: 2em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid $color-border;
+
+  &.last {
+    border-bottom: none;
+  }
+
+  h2 {
+    color: $color-heading-dark;
+  }
+
+  h3 {
+    margin-top: 2px;
+    font-size: 13px;
+    color: $color-tech-bg;
+    font-style: italic;
+  }
+
+  h4 {
+    position: absolute;
+    top: 0.35em;
+    right: 0;
+  }
+
+  p {
+    margin: 0.75em 0 2em 0;
+  }
+}
+
+h5 {
+  margin-bottom: 5px;
+}
+
+// Tech tags
+.tech {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.tech span {
+  font-size: $font-size-tech;
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: $color-tech-text;
+  background-color: $color-tech-bg;
+  white-space: nowrap;
+}
+
+// Talent columns
+.talent-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.talent-columns ul {
+  li {
+    line-height: $line-height-list;
+    border-bottom: 1px solid $color-border;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+// Testimonials
+.testimonial-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.testimonial {
+  h2 {
+    margin-bottom: 6px;
+  }
+}
+
+// Education
+.education-entry {
+  margin-bottom: 2em;
+}
+
+// Footer
+.footer {
+  padding: 1em 0 5em 0;
+  font-size: $font-size-footer;
+  border-top: 1px solid $color-border;
+  text-align: center;
+  margin-bottom: 2em;
+
+  p {
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 0;
+  }
+}
