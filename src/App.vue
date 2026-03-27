@@ -1,5 +1,5 @@
 <template>
-  <div id="doc2">
+  <div>
     <div id="inner">
       <ResumeHeader :personal="data.personal" />
 
