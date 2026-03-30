@@ -37,6 +37,9 @@ export default {
     { name: 'Laravel', highlight: false },
     { name: 'WordPress / Umbraco', highlight: false },
     { name: 'Unity3D', highlight: false },
+    { name: 'Claude Code', highlight: false },
+    { name: 'MCP', highlight: false },
+    { name: 'Open Claw', highlight: false },
   ],
 
   experience: [
