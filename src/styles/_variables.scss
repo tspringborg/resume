@@ -1,37 +1,15 @@
 // Colors
-$color-primary: #990003;
-$color-text: #444;
-$color-heading: #333;
-$color-heading-dark: #000;
-$color-bg: #f5f5f5;
-$color-border: #ccc;
-$color-tech-bg: #4f4f4f;
-$color-tech-text: #fff;
-$color-footer-border: #666;
+$color-bg: #fff;
+$color-text: #2d2d2d;
+$color-muted: #666;
+$color-accent: #1a1a2e;
+$color-border: #e0e0e0;
+$color-tag-bg: #f0f0f0;
+$color-tag-text: #444;
 
 // Typography
-$font-body: Georgia, serif;
-$font-size-base: 100%;
-$font-size-h1: 48px;
-$font-size-h2: 152%;
-$font-size-h3: 122%;
-$font-size-enlarge: 144%;
-$font-size-tech: 11px;
-$font-size-footer: 92%;
-$line-height-base: 18px;
-$line-height-enlarge: 24px;
-$line-height-list: 24px;
-
-// Spacing
-$content-padding: 10px 80px;
-$section-gap: 2em;
-$header-margin-top: 2.5em;
-$header-margin-bottom: 3em;
+$font-body: 'Source Sans 3', 'Source Sans Pro', -apple-system, sans-serif;
+$font-size-base: 16px;
 
 // Layout
-$section-label-width: 12.3%;
-$section-content-width: 80.2%;
-
-// Print
-$border-top-width: 8px;
-$border-bottom-width: 2px;
+$max-width: 820px;

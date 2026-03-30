@@ -1,6 +1,11 @@
 <template>
-  <div class="tech">
-    <span v-for="tag in tags" :key="tag">{{ tag }}</span>
+  <div class="skills-grid">
+    <span
+      v-for="tag in tags"
+      :key="tag.name || tag"
+      class="tag"
+      :class="{ highlight: true }"
+    >{{ tag.name || tag }}</span>
   </div>
 </template>
 

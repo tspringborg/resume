@@ -1,14 +1,11 @@
 <template>
-  <div class="header">
-    <div>
-      <h1>{{ personal.name }}</h1>
-      <h2>{{ personal.title }}</h2>
+  <header class="header">
+    <h1>{{ personal.name }}</h1>
+    <div class="subtitle">{{ personal.title }}</div>
+    <div class="contact">
+      <a :href="'mailto:' + personal.email">{{ personal.email }}</a> &middot; {{ personal.phone }}
     </div>
-    <div class="contact-info">
-      <h3><a :href="'mailto:' + personal.email">{{ personal.email }}</a></h3>
-      <h3>{{ personal.phone }}</h3>
-    </div>
-  </div>
+  </header>
 </template>
 
 <script setup>

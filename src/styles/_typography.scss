@@ -3,44 +3,24 @@
 body {
   font-family: $font-body;
   color: $color-text;
-}
-
-h1, h2, h3, h4 {
-  color: $color-heading;
-}
-
-h2 {
-  font-size: $font-size-h2;
-}
-
-h3, h4 {
-  font-size: $font-size-h3;
-}
-
-p {
+  background: $color-bg;
+  line-height: 1.6;
   font-size: $font-size-base;
-  line-height: $line-height-base;
-  padding-right: 3em;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: $color-primary;
+  color: $color-muted;
+  border-bottom: 1px solid $color-border;
 
   &:hover {
-    text-decoration: none;
+    color: $color-accent;
+    border-color: $color-accent;
   }
 }
 
-strong {
-  font-weight: bold;
-}
-
-.enlarge {
-  font-size: $font-size-enlarge;
-  padding-right: 6.5em;
-  line-height: $line-height-enlarge;
-
-  span {
-    color: #000;
-  }
+.summary p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: $color-text;
 }
