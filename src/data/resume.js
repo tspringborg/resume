@@ -6,7 +6,7 @@ export default {
     phone: '+45 26367416',
   },
 
-  summary: 'Programming professionally for almost two decades with a strong fullstack profile spanning both frontend and backend. Extensive experience building and maintaining applications in C#/.NET and modern JavaScript/TypeScript ecosystems, with deep expertise in Vue.js, Angular, and React. Comfortable working across the stack\u2014from designing REST APIs and integrating with CI/CD pipelines to crafting polished, accessible user interfaces. I take pride in my work and value opportunities to grow, collaborate, and mentor.',
+  summary: 'Programming professionally for almost two decades with a strong fullstack profile spanning both frontend and backend. Extensive experience building and maintaining applications in C#/.NET and modern JavaScript/TypeScript ecosystems, with deep expertise in Vue.js, Angular, and React. Comfortable working across the stack, from designing REST APIs and integrating with CI/CD pipelines to crafting polished, accessible user interfaces. I take pride in my work and value opportunities to grow, collaborate, and mentor.',
 
   programmingLanguages: [
     { name: 'C#', highlight: false },
@@ -44,7 +44,7 @@ export default {
     {
       company: 'Undisclosed Telecommunications Company',
       role: 'Freelance Developer',
-      period: 'Jan 2025 \u2013 Present',
+      period: 'Jan 2025 \u2013 April 2026',
       descriptions: [
         'Maintaining a legacy EPIServer instance running ASP.NET MVC with C#/.NET backend, while supporting continuous integration pipelines and developing customer-facing frontend projects in Vue 2 and Vue 3 with TypeScript.',
       ],
