@@ -41,7 +41,7 @@ export default {
 
   experience: [
     {
-      company: 'Undisclosed Telecommunications Company',
+      company: 'Telia / Norlys',
       role: 'Freelance Developer',
       period: 'Jan 2025 \u2013 April 2026',
       descriptions: [
