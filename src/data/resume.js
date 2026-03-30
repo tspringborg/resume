@@ -48,7 +48,7 @@ export default {
       descriptions: [
         'Maintaining a legacy EPIServer instance running ASP.NET MVC with C#/.NET backend, while supporting continuous integration pipelines and developing customer-facing frontend projects in Vue 2 and Vue 3 with TypeScript.',
       ],
-      tech: ['C#', '.NET', 'ASP.NET MVC', 'EPIServer', 'Vue 2', 'Vue 3', 'TypeScript', 'CI/CD', 'SCSS', 'Node.js', 'A11y'],
+      tech: ['C#', '.NET', 'ASP.NET MVC', 'EPIServer', 'Vue 2', 'Vue 3', 'TypeScript', 'CI/CD', 'SCSS', 'Node.js', 'A11y', 'Uniform', 'Jest', 'Playwright', 'Storybook', 'Kubernetes', 'Docker', 'Chromatic'],
     },
     {
       company: 'Jyskebank A/S',
@@ -91,7 +91,7 @@ export default {
       role: 'Freelance Developer',
       period: 'Feb 2020 \u2013 Aug 2021',
       descriptions: [
-        'Built a second-hand fashion marketplace app (<a href="https://reefashion.app/">reefashion.app</a>) end-to-end\u2014React Native frontend consuming a Laravel REST API backend. Implemented CI/CD pipelines with Fastlane and AppCenter, plus Python automation scripts. Also handled UX and design work.',
+        'Built a second-hand fashion marketplace app (<a href="https://reefashion.app/">reefashion.app</a>) end-to-end - React Native frontend consuming a Laravel REST API backend. Implemented CI/CD pipelines with Fastlane and AppCenter, plus Python automation scripts. Also handled UX and design work.',
       ],
       tech: ['TypeScript', 'React Native', 'Redux Toolkit', 'REST API', 'Laravel', 'PHP', 'Python', 'CI/CD', 'Fastlane', 'Jest', 'Figma'],
     },
@@ -100,7 +100,7 @@ export default {
       role: 'Freelance Developer',
       period: 'Apr 2021 \u2013 Aug 2021',
       descriptions: [
-        'Created scraping scripts to retrieve customer insurance data from multiple provider websites\u2014a complex reverse-engineering challenge. Scripts were injected at runtime into React Native webviews.',
+        'Created scraping scripts to retrieve customer insurance data from multiple provider websites, a complex reverse-engineering challenge. Scripts were injected at runtime into React Native webviews.',
       ],
       tech: ['JavaScript', 'React Native', 'Redux', 'Web Scraping'],
     },
